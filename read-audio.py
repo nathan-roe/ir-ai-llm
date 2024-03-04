@@ -37,7 +37,7 @@ rag_prompt = ChatPromptTemplate(
             prompt=PromptTemplate(
                 input_variables=["context", "question"],
                 template="""
-                You summarize the contents of a transcibed football broadcast.
+                You summarize the contents of a transcribed football broadcast.
                 Briefly summarize the provided audio file transcription.
                 Ensure your summary matches the official 2023 NFL rule book, but don't include the section number in your response.
                 Do not include information other than the summary in your response.
